@@ -14,8 +14,8 @@ namespace APM.WebAPI
         {
             // Configuración y servicios de Web API
             // Configure Web API para usar solo la autenticación de token de portador.
-            config.SuppressDefaultHostAuthentication();
-            config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
+            //config.SuppressDefaultHostAuthentication();
+            //config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Rutas de Web API
             config.MapHttpAttributeRoutes();

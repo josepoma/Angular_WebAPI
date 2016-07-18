@@ -19,7 +19,7 @@ using APM.WebAPI.Results;
 
 namespace APM.WebAPI.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
